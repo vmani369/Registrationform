@@ -1,0 +1,20 @@
+{
+  "name": "registration-form",
+  "version": "1.0.0",
+  "description": "Registration Form using Node.js, HTML, CSS and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "author": "SleepyMiner",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3",
+    "nodemon": "^3.0.3"
+  }
+}
